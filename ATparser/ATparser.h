@@ -1,7 +1,7 @@
 /*
  * ATparser.h
  *
- *  Created on: 2017��7��1��
+ *  Created on: 2017.7.1
  *      Author: zhangyu
  */
 
@@ -9,10 +9,10 @@
 #define ATPARSER_H_
 #include "Arduino.h"
 /**************************************
+ * "AT", return "OK"
  * "AT+Cxx", return "OK+Cxx", xx is number 0~16
  * "AT+Nxxx", return "OK+Nxxx" ,xxx is number 0~255
  * "AT+Rx",  return "OK+Cxx,Nxxx"
- *
  *
  */
 #define MAX_PARSE_BUFFER_LEN (20)
